@@ -1,6 +1,8 @@
 #LINE聊天機器人
 #flask架設伺服器或網站
 #flask架設規模較小，django規模較大
+#github做版本控制
+#heroku執行程式碼
 from flask import Flask, request, abort
 
 from linebot import (
